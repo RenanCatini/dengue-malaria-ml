@@ -10,8 +10,6 @@
 
 Dengue e malária compartilham sintomas iniciais inespecíficos, o que dificulta o diagnóstico clínico isolado. Este projeto avalia se modelos treinados com hemogramas para uma dessas doenças conseguem **generalizar** para diagnosticar a outra, testando a transferência preditiva nos dois sentidos.
 
-Desenvolvido como artigo científico submetido a um evento da SBC (Sociedade Brasileira de Computação).
-
 ## Metodologia
 
 - Duas bases independentes de hemograma (dengue e malária) + conjunto de validação externa "compartilhado", com 10 variáveis hematológicas em comum.
