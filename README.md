@@ -40,7 +40,7 @@ O trabalho foi desenvolvido como artigo científico e submetido a um evento da S
 
 **Principal achado:** há uma **assimetria expressiva** na generalização. Modelos treinados em malária transferem bem o conhecimento para dengue, mas o inverso não se sustenta — sugerindo que assinaturas hematológicas mais restritas (dengue) não capturam a complexidade de padrões mais amplos (malária), o que se agrava ainda mais nos casos de sobreposição clínica entre as duas doenças.
 
-## ️ Tecnologias
+## Tecnologias
 
 - Python
 - Scikit-learn
@@ -52,31 +52,14 @@ O trabalho foi desenvolvido como artigo científico e submetido a um evento da S
 
 ```
 sbc_doencas/
-├── data/               # bases de dengue, malária e conjunto compartilhado
-├── notebooks/          # exploração e experimentos
-├── src/                # scripts de pré-processamento, treino e avaliação
-├── results/            # tabelas e métricas geradas
-├── artigo/             # PDF do artigo científico
+├── database/            # bases de dados brutas (dengue, malária, compartilhado)
+├── treino_dengue/       # notebooks de treino (KNN, RF, SVM, XGB) + saidas/
+├── treino_malaria/      # notebooks de treino (KNN, RF, SVM, XGB) + saidas/
+├── tratamento.ipynb     # limpeza e pré-processamento dos dados
 └── README.md
 ```
-> ️ Ajuste esta seção conforme a estrutura real de pastas do seu repositório.
 
-## ▶️ Como executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/RenanCatini/sbc_doencas.git
-cd sbc_doencas
-
-# Crie um ambiente virtual e instale as dependências
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# Execute o pipeline
-python src/main.py
-```
-> ️ Adapte os comandos acima ao ponto de entrada real do seu código.
+Cada doença tem seu próprio conjunto de notebooks de treino — um por algoritmo — e uma pasta `saidas/` com `predicoes.csv`, `probabilidades.csv` e `estatisticas.ipynb`, este último contendo os **resultados consolidados** (Acurácia, Precisão, Recall, F1, MCC, AUC) de cada modelo.
 
 ## Referências principais
 
@@ -84,7 +67,7 @@ python src/main.py
 - Ralapanawa et al. (2015) — *Predictive value of laboratory biomarkers in dengue and malaria*, BMC Infectious Diseases.
 - Sarker Siam et al. (2025a, 2025b) — Datasets hematológicos de dengue e malária (Bangladesh).
 
-## ️ Autores
+## Autores
 
 - **Renan C. Amaral** — Universidade Federal de Alfenas (UNIFAL-MG)
 - **Reginaldo J. Silva** — Universidade Estadual Paulista (UNESP)
