@@ -56,8 +56,9 @@ Cada pasta `saidas/` contém `predicoes.csv`, `probabilidades.csv` e `estatistic
 
 ## Autores
 
-Renan C. Amaral · Reginaldo J. Silva · Angela L. Moreno
-(UNIFAL-MG / UNESP)
+- **Renan C. Amaral** — Universidade Federal de Alfenas (UNIFAL-MG)
+- **Reginaldo J. Silva** — Universidade Estadual Paulista (UNESP)
+- **Angela L. Moreno** — Universidade Federal de Alfenas (UNIFAL-MG)
 
 ## Licença
 
