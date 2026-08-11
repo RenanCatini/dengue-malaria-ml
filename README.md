@@ -45,12 +45,6 @@ sbc_doencas/
 
 Cada pasta `saidas/` contém `predicoes.csv`, `probabilidades.csv` e `estatisticas.ipynb` — este último com os resultados consolidados de cada modelo.
 
-## Referências
-
-- Bhatt et al. (2013) — *The global distribution and burden of dengue*, Nature.
-- Ralapanawa et al. (2015) — *Predictive value of laboratory biomarkers in dengue and malaria*, BMC Infectious Diseases.
-- Sarker Siam et al. (2025a, 2025b) — Datasets hematológicos de dengue e malária (Bangladesh).
-
 ## Autores
 
 - **Renan C. Amaral** — Universidade Federal de Alfenas (UNIFAL-MG)
