@@ -3,7 +3,6 @@
 > Estudo de generalização de modelos de Machine Learning aplicados a hemogramas, avaliando se um classificador treinado para diagnosticar dengue consegue identificar malária (e vice-versa).
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-research-orange)]()
 
 ## Sobre o projeto
@@ -59,7 +58,3 @@ Cada pasta `saidas/` contém `predicoes.csv`, `probabilidades.csv` e `estatistic
 - **Renan C. Amaral** — Universidade Federal de Alfenas (UNIFAL-MG)
 - **Reginaldo J. Silva** — Universidade Estadual Paulista (UNESP)
 - **Angela L. Moreno** — Universidade Federal de Alfenas (UNIFAL-MG)
-
-## Licença
-
-MIT — veja [LICENSE](LICENSE).
