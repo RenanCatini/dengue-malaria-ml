@@ -55,12 +55,4 @@ Cada pasta `saidas/` contém `predicoes.csv`, `probabilidades.csv` e `estatistic
 
 - **Renan C. Amaral** — Universidade Federal de Alfenas (UNIFAL-MG)
 - **Reginaldo J. Silva** — Universidade Estadual Paulista (UNESP)
-<<<<<<< HEAD
 - **Angela L. Moreno** — Universidade Federal de Alfenas (UNIFAL-MG)
-=======
-- **Angela L. Moreno** — Universidade Federal de Alfenas (UNIFAL-MG)
-
-## Licença
-
-MIT — veja [LICENSE](LICENSE).
->>>>>>> 9de0d6dbf73d8d1d1f63045422687a7dd32b27cf
