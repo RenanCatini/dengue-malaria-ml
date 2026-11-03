@@ -1,4 +1,4 @@
-# SBC Doenças — Validação Cruzada Bidirecional entre Dengue e Malária
+# Validação Cruzada Bidirecional entre Dengue e Malária
 
 > Estudo de generalização de modelos de Machine Learning aplicados a hemogramas, avaliando se um classificador treinado para diagnosticar dengue consegue identificar malária (e vice-versa).
 
